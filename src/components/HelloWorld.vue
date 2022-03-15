@@ -4,6 +4,9 @@ import { ref } from 'vue'
 defineProps<{ msg: string }>()
 
 const count = ref(0)
+let a = {
+  "a": '1'
+}
 </script>
 
 <template>
