@@ -13,7 +13,7 @@
     "lib": ["esnext", "dom"],
     "paths": {
       "~/*": ["src/*"]
-    },
+    }
   },
   "exclude": ["dist", "node_modules"]
   // "references": [{ "path": "./tsconfig.node.json" }]

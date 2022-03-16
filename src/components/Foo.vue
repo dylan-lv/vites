@@ -1,15 +1,18 @@
 <template>
-  <button @click="add">add</button>
+  <button @click="add">
+    add
+  </button>
+
   {{ count }}
 </template>
 
 <script setup lang="ts">
 
-const count = ref(0)
-function add () {
-  count.value++
+const count = ref(0);
+function add() {
+  count.value++;
 }
-console.log(add)
+console.log(add);
 
 </script>
 
