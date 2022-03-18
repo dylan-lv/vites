@@ -8,10 +8,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.25"
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.14"
   },
   "devDependencies": {
-    "@hayeslv/eslint-config": "^0.1.1",
+    "@hayeslv/eslint-config": "^0.1.2",
     "@types/node": "^17.0.21",
     "@vitejs/plugin-vue": "^2.2.0",
     "eslint": "^8.11.0",
@@ -23,6 +24,7 @@
   },
   "eslintConfig": {
     "extends": "@hayeslv",
-    "rules": {}
+    "rules": {
+    }
   }
 }

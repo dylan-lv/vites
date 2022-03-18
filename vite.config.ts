@@ -13,7 +13,7 @@ export default defineConfig({
   plugins: [
     Vue({ reactivityTransform: true }),
     AutoImport({
-      imports: ["vue"],
+      imports: ["vue", "vue-router"],
       dts: true,
     }),
     Components({

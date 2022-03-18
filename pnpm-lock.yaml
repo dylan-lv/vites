@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@hayeslv/eslint-config': ^0.1.1
+  '@hayeslv/eslint-config': ^0.1.2
   '@types/node': ^17.0.21
   '@vitejs/plugin-vue': ^2.2.0
   eslint: ^8.11.0
@@ -10,13 +10,15 @@ specifiers:
   unplugin-vue-components: ^0.18.0
   vite: ^2.8.0
   vue: ^3.2.25
+  vue-router: ^4.0.14
   vue-tsc: ^0.29.8
 
 dependencies:
   vue: 3.2.31
+  vue-router: 4.0.14_vue@3.2.31
 
 devDependencies:
-  '@hayeslv/eslint-config': 0.1.1_eslint@8.11.0+typescript@4.6.2
+  '@hayeslv/eslint-config': 0.1.2_eslint@8.11.0+typescript@4.6.2
   '@types/node': 17.0.21
   '@vitejs/plugin-vue': 2.2.4_vite@2.8.6+vue@3.2.31
   eslint: 8.11.0
@@ -73,8 +75,8 @@ packages:
       - supports-color
     dev: true
 
-  /@hayeslv/eslint-config-basic/0.1.1_eslint@8.11.0:
-    resolution: {integrity: sha512-xmYbz9FYMPmODYfXsfT6DfegPUyoTJVJ8CLk7YPkpcuqHSLsGvCFJ1/wzd9XwRv4GH4fz4Pi7vFWpWXMrAzBcg==}
+  /@hayeslv/eslint-config-basic/0.1.2_eslint@8.11.0:
+    resolution: {integrity: sha512-/DaY95l+eifrgRxeRc4KOK6/hOp8jVuY60a+VwwPuP4zvUSaowQa6my4zuL9GuWF8gc5Y6LQSjBZo7yuylWN+g==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
@@ -86,13 +88,13 @@ packages:
       eslint-plugin-promise: 6.0.0_eslint@8.11.0
     dev: true
 
-  /@hayeslv/eslint-config-ts/0.1.1_eslint@8.11.0+typescript@4.6.2:
-    resolution: {integrity: sha512-QdiIkzsabLDBIa6GmI1wEivFAZ7we8Odnz/yMVoSbXx7UGn+3eSJBMqNQda3nPZHPdxnr+NxXbAzT1FQe1ZY+g==}
+  /@hayeslv/eslint-config-ts/0.1.2_eslint@8.11.0+typescript@4.6.2:
+    resolution: {integrity: sha512-VkqtHW/mPFszp+PO7zzeSCkG3lPP6dQuTPuu1oLZZ6Te1a6M+PfwQpcjq16sBbrTZAyvHB0ChhTke+1pdp648g==}
     peerDependencies:
       eslint: '>=7.4.0'
       typescript: '>=3.9'
     dependencies:
-      '@hayeslv/eslint-config-basic': 0.1.1_eslint@8.11.0
+      '@hayeslv/eslint-config-basic': 0.1.2_eslint@8.11.0
       '@typescript-eslint/eslint-plugin': 5.15.0_f2c49ce7d0e93ebcfdb4b7d25b131b28
       '@typescript-eslint/parser': 5.15.0_eslint@8.11.0+typescript@4.6.2
       eslint: 8.11.0
@@ -101,12 +103,12 @@ packages:
       - supports-color
     dev: true
 
-  /@hayeslv/eslint-config-vue/0.1.1_eslint@8.11.0+typescript@4.6.2:
-    resolution: {integrity: sha512-FsUonVbLmv2d4U0MIIj6Kbk74rZ94u0v8YbqzStI83XJd6OjXu7S8eMeP++zj4nOW962uM9/ofbcYr6eIkuRZw==}
+  /@hayeslv/eslint-config-vue/0.1.2_eslint@8.11.0+typescript@4.6.2:
+    resolution: {integrity: sha512-NJkd0+e28VfTNt3Fkazfb279giqQSZHvlNsTYbFkWeofbkfTDDe08Zbd/z/NAxdeHJzPmM2ljrhd/+imZkGy0A==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      '@hayeslv/eslint-config-ts': 0.1.1_eslint@8.11.0+typescript@4.6.2
+      '@hayeslv/eslint-config-ts': 0.1.2_eslint@8.11.0+typescript@4.6.2
       eslint: 8.11.0
       eslint-plugin-vue: 8.5.0_eslint@8.11.0
     transitivePeerDependencies:
@@ -114,12 +116,12 @@ packages:
       - typescript
     dev: true
 
-  /@hayeslv/eslint-config/0.1.1_eslint@8.11.0+typescript@4.6.2:
-    resolution: {integrity: sha512-LOfISfvAh3Q1Y8y8SepgHjteEjhzdH/UBh2WsyQT3bcbiPaw0Le2vTX0aMTelj1TqYfTvyqx5cDA+BUHE2kklA==}
+  /@hayeslv/eslint-config/0.1.2_eslint@8.11.0+typescript@4.6.2:
+    resolution: {integrity: sha512-U5He5P/EaGrugZbq72aRmRyPv9IQddQxb9nMK0ugU7i74uK2mXHKbVVnpwygF70LIQqbaEzEokC9sej6dVSTKQ==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
-      '@hayeslv/eslint-config-vue': 0.1.1_eslint@8.11.0+typescript@4.6.2
+      '@hayeslv/eslint-config-vue': 0.1.2_eslint@8.11.0+typescript@4.6.2
       '@typescript-eslint/eslint-plugin': 5.15.0_f2c49ce7d0e93ebcfdb4b7d25b131b28
       '@typescript-eslint/parser': 5.15.0_eslint@8.11.0+typescript@4.6.2
       eslint: 8.11.0
@@ -369,6 +371,10 @@ packages:
     dependencies:
       '@vue/compiler-dom': 3.2.31
       '@vue/shared': 3.2.31
+    dev: false
+
+  /@vue/devtools-api/6.1.3:
+    resolution: {integrity: sha512-79InfO2xHv+WHIrH1bHXQUiQD/wMls9qBk6WVwGCbdwP7/3zINtvqPNMtmSHXsIKjvUAHc8L0ouOj6ZQQRmcXg==}
     dev: false
 
   /@vue/reactivity-transform/3.2.31:
@@ -1790,6 +1796,15 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /vue-router/4.0.14_vue@3.2.31:
+    resolution: {integrity: sha512-wAO6zF9zxA3u+7AkMPqw9LjoUCjSxfFvINQj3E/DceTt6uEz1XZLraDhdg2EYmvVwTBSGlLYsUw8bDmx0754Mw==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      '@vue/devtools-api': 6.1.3
+      vue: 3.2.31
+    dev: false
 
   /vue/3.2.31:
     resolution: {integrity: sha512-odT3W2tcffTiQCy57nOT93INw1auq5lYLLYtWpPYQQYQOOdHiqFct9Xhna6GJ+pJQaF67yZABraH47oywkJgFw==}
