@@ -1,7 +1,6 @@
 {
   "name": "vites",
-  "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
@@ -12,7 +11,7 @@
     "vue": "^3.2.25"
   },
   "devDependencies": {
-    "@dylanlv/eslint-config": "0.0.10",
+    "@hayeslv/eslint-config": "^0.1.1",
     "@types/node": "^17.0.21",
     "@vitejs/plugin-vue": "^2.2.0",
     "eslint": "^8.11.0",
@@ -23,7 +22,7 @@
     "vue-tsc": "^0.29.8"
   },
   "eslintConfig": {
-    "extends": "@dylanlv",
+    "extends": "@hayeslv",
     "rules": {}
   }
 }
