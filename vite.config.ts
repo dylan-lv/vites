@@ -2,8 +2,6 @@ import path from "path";
 import { defineConfig } from "vite";
 import Vue from "@vitejs/plugin-vue";
 import VueJsx from "@vitejs/plugin-vue-jsx";
-import AutoImport from "unplugin-auto-import/vite";
-import Components from "unplugin-vue-components/vite";
 
 export default defineConfig({
   resolve: {
@@ -14,13 +12,6 @@ export default defineConfig({
   plugins: [
     Vue({ reactivityTransform: true }),
     VueJsx(),
-    AutoImport({
-      imports: ["vue", "vue-router"],
-      dts: true,
-    }),
-    Components({
-      dts: true,
-    }),
   ],
   css: {
     preprocessorOptions: {
